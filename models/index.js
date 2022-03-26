@@ -31,7 +31,7 @@ Tag.belongsToMany(Product, {
     foreignKey: "tag_id",
   },
   // Define an alias for when data is retrieved
-  as: 'products'
+  as: "products"
 });
 
 module.exports = {
