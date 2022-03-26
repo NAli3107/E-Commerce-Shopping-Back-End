@@ -43,7 +43,7 @@ router.get("/:id", async (req, res) => {
 
     return res.json(tagsData);
   } catch (error) {
-    return res.status(500).json({ error: "Failed to retrieve tags!" });
+    return res.status(500).json({ error: "Failed to retrieve tags with this ID!" });
   }
 });
 

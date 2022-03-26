@@ -43,7 +43,7 @@ router.get('/:id', async (req, res) => {
 
     return res.json(categoriesData);
   } catch (error) {
-    return res.status(500).json({ error: "Failed to get category!" });
+    return res.status(500).json({ error: "Failed to retrieve category with this ID!" });
   }
 });
 
