@@ -43,7 +43,9 @@ router.get("/:id", async (req, res) => {
 
     return res.json(tagsData);
   } catch (error) {
-    return res.status(500).json({ error: "Failed to retrieve tags with this ID!" });
+    return res
+      .status(500)
+      .json({ error: "Failed to retrieve tags with this ID!" });
   }
 });
 
@@ -87,7 +89,7 @@ router.delete("/:id", async (req, res) => {
       },
     });
 
-    return res.status(200).json(tagsData)
+    return res.status(200).json(tagsData);
   } catch (error) {
     return res.status(500).json(error);
   }

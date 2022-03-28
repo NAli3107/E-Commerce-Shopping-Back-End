@@ -43,23 +43,22 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 
 ```
-```
-View video to see MySQL walk through via 
-View video to walk through of the API routes
-View video to see Postman walk through via
-```
 
 ## Examples
 
-ScreenshotS of Database:
-
-![Database-Screenshot1](./assets/images/DB1.png)
+Screenshot of Database:
 
 ![Database-Screenshot1](./assets/images/DB2.png)
 
 Screenshot of Postman:
 
-![Postman-Screenshot]()
+![Postman-Screenshot](./assets/images/Postman.png)
+
+[E-Commerce Video 1](https://drive.google.com/file/d/1i530MRSVTAw4hM89hDeXnHi25cYZvoeb/view)
+
+[E-Commerce Video 2](https://drive.google.com/file/d/1XLpnTX3Jdtnm5hKcwILuvHRxLAjKbBTj/view)
+
+[E-Commerce Video 3](https://drive.google.com/file/d/1Ulyc91PmgGJc0CIoRkLVJpDF0nW-GPzt/view)
 
 ## Contact
 
